@@ -125,4 +125,5 @@ class Foo
 ##4.3 方法
 方法名称必须符合`camelCase`式的小写开头驼峰命名规范
 
+
 原文参考：[PSR-1: Basic Coding Standard](http://www.php-fig.org/psr/psr-1/)

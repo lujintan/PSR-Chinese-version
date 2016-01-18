@@ -510,3 +510,6 @@ $foo->bar(
 * 最佳实践
 
 后续的规范建议`MAY`针对这些或其他的方面进行修改和扩展。
+
+
+原文参考：[PSR-2: Coding Style Guide](http://www.php-fig.org/psr/psr-2/)

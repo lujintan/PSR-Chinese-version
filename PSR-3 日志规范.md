@@ -237,3 +237,5 @@ class LogLevel
     const DEBUG     = 'debug';
 }
 ```
+
+原文参考：[PSR-3: Logger Interface](http://www.php-fig.org/psr/psr-3/)

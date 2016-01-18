@@ -40,3 +40,5 @@ The table below shows the corresponding file path for a given fully qualified cl
 |\Zend\Acl|Zend|/usr/includes/Zend/|/usr/includes/Zend/Acl.php|
 
 关于上面的规范，这里有一个[示例文件](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader-examples.md)。示例的实现`MUST NOT`作为规范的一部分，因为后续`MAY`随时修改。
+
+原文参考：[PSR-4: Autoloading Standard](http://www.php-fig.org/psr/psr-4/)

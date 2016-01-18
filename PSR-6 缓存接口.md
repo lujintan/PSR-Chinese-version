@@ -327,3 +327,5 @@ interface InvalidArgumentException extends CacheException
 {
 }
 ```
+
+原文参考：[PSR-6: Caching Interface](http://www.php-fig.org/psr/psr-6/)
