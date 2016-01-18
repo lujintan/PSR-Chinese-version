@@ -33,7 +33,7 @@
 The table below shows the corresponding file path for a given fully qualified class name, namespace prefix, and base directory.
 
 |完整的类的命名|命名空间前缀|基目录|文件目录
-|--------------------------------------------|----------------------|-------------------------------------
+|----------------------------|---------------|----------------------|-------------------------------------
 |\Acme\Log\Writer\File_Writer|Acme\Log\Writer|./acme-log-writer/lib/|./acme-log-writer/lib/File_Writer.php
 |\Aura\Web\Response\Status|Aura\Web|/path/to/aura-web/src/|/path/to/aura-web/src/Response/Status.php
 |\Symfony\Core\Request|Symfony\Core|./vendor/Symfony/Core/|./vendor/Symfony/Core/Request.php
