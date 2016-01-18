@@ -32,12 +32,12 @@
 下面的表单展示了文件路径和完整的类的命名、命名空间前缀、基目录的对应关系。
 The table below shows the corresponding file path for a given fully qualified class name, namespace prefix, and base directory.
 
-|*完整的类的命名*|*命名空间前缀*|*基目录*|*文件目录*|
-|-|
-|\Acme\Log\Writer\File_Writer|Acme\Log\Writer|./acme-log-writer/lib/|./acme-log-writer/lib/File_Writer.php|
-|\Aura\Web\Response\Status|Aura\Web|/path/to/aura-web/src/|/path/to/aura-web/src/Response/Status.php|
-|\Symfony\Core\Request|Symfony\Core|./vendor/Symfony/Core/|./vendor/Symfony/Core/Request.php|
-|\Zend\Acl|Zend|/usr/includes/Zend/|/usr/includes/Zend/Acl.php|
+|*完整的类的命名*|*命名空间前缀*|*基目录*|*文件目录*
+|--------------------------------------------|----------------------|-------------------------------------
+|\Acme\Log\Writer\File_Writer|Acme\Log\Writer|./acme-log-writer/lib/|./acme-log-writer/lib/File_Writer.php
+|\Aura\Web\Response\Status|Aura\Web|/path/to/aura-web/src/|/path/to/aura-web/src/Response/Status.php
+|\Symfony\Core\Request|Symfony\Core|./vendor/Symfony/Core/|./vendor/Symfony/Core/Request.php
+|\Zend\Acl|Zend|/usr/includes/Zend/|/usr/includes/Zend/Acl.php
 
 关于上面的规范，这里有一个[示例文件](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader-examples.md)。示例的实现`MUST NOT`作为规范的一部分，因为后续`MAY`随时修改。
 
