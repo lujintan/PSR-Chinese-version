@@ -57,7 +57,9 @@ class Foo extends Bar implements FooInterface
 ##2.2 文件
 
 所有PHP文件`MUST`使用 Unix LF(linefeed)换行符作为结尾（注：要了解更多Unix LF，[点击这里](http://www.kkyfj.com/php/2016/01/05/about-UNIX-LF.html)）
+
 所有PHP文件`MUST`已一行空行作为文本的结束（注：此处我个人的理解是，Unix把文件的处理视作流式的，也就是说可以任意拼接的）
+
 所有PHP文件`MUST`删除结束符`?>`，只保留开始的`<?php`（注：PHP文件不加结束符，默认已文件结尾作为结束。如果加了结束符，当文件被include的时候，结束符后面的内容将会被当做标准输出）
 
 ##2.3 行
